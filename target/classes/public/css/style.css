@@ -1,5 +1,10 @@
 body {
   padding-top: 20px;
+  background-color: coral;
+}
+
+.navbar{
+  position: fixed;
 }
 .starter-template {
   padding: 40px 15px;
