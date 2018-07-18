@@ -2,8 +2,7 @@ body {
   padding-top: 20px;
   background-color: coral;
 }
-
-.navbar{
+navbar{
   position: fixed;
 }
 .starter-template {
@@ -27,9 +26,9 @@ to prevent collapsing during animation*/
 [ui-view] {
   height: 65px;
 }
-.ui-view-container {
-  position: relative;
-}
+/*.ui-view-container {*/
+  /*position: relative;*/
+/*}*/
 [ui-view].ng-enter,
 [ui-view].ng-leave {
   position: absolute;
@@ -63,4 +62,47 @@ to prevent collapsing during animation*/
   -webkit-transform: translate3d(100px, 0, 0);
   -moz-transform: translate3d(100px, 0, 0);
   transform: translate3d(100px, 0, 0);
+}
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+
+* {
+  box-sizing: border-box;
+
+}
+
+
+/* Create two equal columns that floats next to each other */
+/*.col {*/
+  /*float: left;*/
+  /*width: 50%;*/
+
+/*}*/
+
+/*.col img {*/
+  /*margin-top: 12px;*/
+  /*padding: 40px;*/
+
+/*}*/
+
+/* Clear floats after the columns */
+/*.row:after {*/
+  /*content: "";*/
+  /*display: table;*/
+  /*clear: both;*/
+/*}*/
+#thumbs{
+  padding: 10px;
+}
+
+.img-rounded{
+  border-radius: 6px;
+  /*padding: 100px;*/
+}
+
+.sm-padding {
+  padding: 20px;
 }
